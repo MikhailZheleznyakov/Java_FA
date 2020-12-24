@@ -2,10 +2,10 @@ package com.company;
 public abstract class Clothes {
 
     private Sizes size;
-    private double cost;
+    private int cost;
     private String color;
 
-    public Clothes(Sizes size, double cost, String color) {
+    public Clothes(Sizes size, int cost, String color) {
         this.size = size;
         this.cost = cost;
         this.color = color;
@@ -20,7 +20,7 @@ public abstract class Clothes {
     public String getcolor() {
         return color;
     }
-    public void setcost(double cost) {
+    public void setcost(int cost) {
         this.cost = cost;
     }
 }
